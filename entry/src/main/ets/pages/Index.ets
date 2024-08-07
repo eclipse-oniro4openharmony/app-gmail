@@ -38,7 +38,8 @@ struct Index {
       // Web({ src: $rawfile("index.html"), controller: this.controller })
 
       /* Load online web pages */
-      Web({ src: 'https://xxx/xxx/com', controller: this.controller })
+      // Load the gmail into the webview
+      Web({ src: 'https://mail.google.com', controller: this.controller })
         .zoomAccess(false)
         .mediaPlayGestureAccess(true)
         .horizontalScrollBarAccess(false)
